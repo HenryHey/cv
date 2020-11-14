@@ -1,10 +1,16 @@
 - layout: left
-  name: Harvard University
-  dates: 2010 - 2013
+  name: Universitat Rovira i Virgili
+  dates: 2006 - 2009
+  qualification: MSc Computer Science
+  quote: >
+  description: | # this will include new lines to allow paragraphs
+    I spent the first two years working a part-time job while studying.
+
+    For the remaining two years I worked full time at Hyds where I wrote
+    my masters thesis about Flood simulations in ArcGIS.
+- layout: left
+  name: Universitat Rovira i Virgili
+  dates: 2003 - 2006
   qualification: BSc Computer Science
   quote: >
-    Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
   description: | # this will include new lines to allow paragraphs
-    During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-    I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.

@@ -1,9 +1,33 @@
 - layout: left
-  company: The Boring Company
-  link: boringcompany.com
-  job_title: Senior Network System Administrator
-  dates: November 2017 - Present
+  company: Natural Machines
+  link: www.naturalmachines.com
+  job_title: Full stack engineer
+  dates: November 2012 - Present
   quote: >
    Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+
+- layout: left
+  company: Independent game developer 
+  link: www.clabsa.es
+  job_title: Game designer / programmer
+  dates: September 2008 - September 2011
+  quote: >
+   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  description: | # this will include new lines to allow paragraphs
+
+- layout: left
+  company: CLABSA
+  link: www.clabsa.es
+  job_title: Junior Software Engineer
+  dates: September 2008 - September 2011
+  quote: >
+   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  description: | # this will include new lines to allow paragraphs
+    Development of ArcGIS plugins using Python.
+    Creation of a Visual Studio (C#) project consisting of:
+      - Getting geospatial data from a GIS database (Smallworld)
+      - Data analysis
+      - Export of the analysed data to an external server (Webdav).
+      - Development in C# of an application for offsite scupper data collection, resilient to poor connection conditions. Synced whenever connection was available with a SQL Server database.
+    Maintenance of legacy applications (Visual Studio 6)
