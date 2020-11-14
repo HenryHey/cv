@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 name: Enric Masdeu
 title: Full Stack Engineer
 email: enric.masdeu@gmail.com
-website: www.github.com/sproogen/resume-theme
+#website: www.github.com/sproogen/resume-theme
 
 # Social links
 # twitter_username: facespics
@@ -24,13 +24,8 @@ linkedin_username: emasdeu
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi! Thanks for taking a look at my profile!
-  I'm currently enjoying my time at Natural Machines, playing with everything that has a computer attached to it, from systems administration to frontend development, also coding some low level android libraries and even 3D modeling for 3D food printing.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
-# Projects Section
-# projects_title: Projects
+  Hi! Thanks for taking a look at my resume!  
+  I'm currently enjoying my time at Natural Machines, playing with everything that has a computer attached to it, from systems administration ( <mark>aws</mark> ) to frontend development ( <mark>php</mark>, some <mark>react</mark> ), also coding some low level android libraries ( <mark>ndk</mark> ) and even 3D modeling for 3D food printing ( <mark>blender</mark> and <mark>openscad</mark> )
 
 # Experience Section
 # experience_title: Experience
@@ -41,13 +36,12 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Rock climbing
-   - Gaming
-   - Knitting
+  Alongside my interests in software engineering some of my other interests and hobbies are:
+   - Video-games: playing, reading about them and sometimes making them.
+   - Cooking: Well, actually eating, but you need the previous step.
 
 # Footer
-footer_show_references: true
+# footer_show_references: true
 
 # Build settings
 remote_theme: sproogen/resume-theme
