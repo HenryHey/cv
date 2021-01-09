@@ -4,21 +4,31 @@
   job_title: Full stack engineer
   dates: November 2012 - Present
   description: | # this will include new lines to allow paragraphs
-    It's been a long time already, and I've been focusing lately in my role as full stack engineer. This is my tech history since the beginning, feel free to ask for more details in any area.
+    This is my project history (latest on top). Since it's been a long time already feel free to ask for more details in any area.
 
-    Construction of a 3D food printer proof of concept, which included:
-    - Adaptation of 2 open source 3D printers into one, Reprap's electronics into Fab@Home chassis
-    - Development of a wireless communication system so the printer can be accessed from WiFi
+    Implement CD / CI pipeline for all internal projects using Jenkins and AWS, which includes: 
+      - Natural Machines Website
+      - Foodini's (3d food printer) Android app: backend + NDK libraries and frontend
+      - Firmware for an ARM Cortex PCB
+      - Tax reporting application
 
-    Once we had the proof of concept working, we moved to a factory built prototype, adding an Android tablet as the interface to work with the electronics:
-    - Android + NDK backend
+    Development of a tax reporting application in Node.js
+    - Import financial information from Zoho Books.
+    - Report this information to the Spanish Tax Service (SII)
+
+    Development, deployment and maintenance of the Natural Machine website backend. Serverless implementation in AWS lambda + API Gateway in Node.js:
+    - User information stored in Dynamo DB, authentication using Cognito.
+    - Payment gateways including Stripe and ING bank.
+    - Integrations with the Zoho ecosystem (Books, CRM and Inventory)
+    - Frontend hosted in AWS (Cloudfront + ELB + EC2)
+
+    Next iteration of the 3d food printer (Foodini) includes an Android tablet, so I had to develop the App the users had to use to interact with Foodini:
+    - Android backend as a rest API (using NDK for resource intensive algorithms)
     - Web frontend (Angular)
 
-    From then on I've been focused on improving the CD / CI pipeline using Jenkins and AWS.
-
-    During this time I've also developed:
-    - Integrations with the Zoho ecosystem (Books, CRM and Inventory) in Node.js, and the Spanish Tax Service (SII).
-    - The backend for our ecommerce website: Using Craft CMS (PHP) and also integrated with Zoho Books and using Stripe as a payment gateway.
+    Construction of a 3D food printer PoC, which included:
+    - Adaptation of 2 open source 3D printers into one, Reprap's electronics into Fab@Home chassis
+    - Development of a wireless communication system so the printer can be accessed from WiFi
 
 - layout: left
   company: Independent game developer 

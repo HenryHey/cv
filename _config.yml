@@ -25,7 +25,8 @@ linkedin_username: emasdeu
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi! Thanks for taking a look at my resume!  
-  I'm currently enjoying my time at Natural Machines, playing with everything that has a computer attached to it, from system administration ( <mark>aws</mark> ) to frontend development ( <mark>php</mark>, some <mark>react</mark> ), also coding some low level android libraries ( <mark>ndk</mark> ) and even 3D modeling for 3D food printing ( <mark>blender</mark> and <mark>openscad</mark> )
+  I'm enjoying my time at Natural Machines, playing with everything that has a computer attached to it.  
+  Currently wearing the full stack hat, system administration ( <mark>aws</mark> ), backend ( <mark>node.js</mark> ) and some frontend ( <mark>php</mark>, some <mark>react</mark> ). I've also coded low level android libraries ( <mark>ndk</mark> ) and even did 3D modeling for 3D food printing ( <mark>blender</mark> and <mark>openscad</mark> )
 
 # Experience Section
 # experience_title: Experience
