@@ -1,16 +1,12 @@
 - layout: left
-  name: Universitat Rovira i Virgili
-  dates: 2006 - 2009
-  qualification: MSc Computer Science
-  quote: >
+  name: Univ. Rovira i Virgili
+  dates: 2003 - 2009
   description: | # this will include new lines to allow paragraphs
-    I spent the first two years working a part-time job while studying.
+    - Bachelor of Science (BS), Computer Science 2003 - 2006  
+    - Master of Science (MS), Computer Science 2006 - 2009
 
-    For the remaining two years I worked full time at CLABSA where I wrote
-    my masters thesis about Flood simulations in ArcGIS.
 - layout: left
-  name: Universitat Rovira i Virgili
-  dates: 2003 - 2006
-  qualification: BSc Computer Science
-  quote: >
+  name: GCP Certifications
   description: | # this will include new lines to allow paragraphs
+    - [Professional Cloud Engineer PCE, 2026](https://www.credly.com/badges/3666dbec-4a2a-49ed-9ed2-05f61c33c4d9/public_url)
+    - [Associate Cloud Engineer ACE, 2024](https://www.credly.com/badges/5220cf87-4859-4f27-8d51-2b4c7550c9d6/public_url)

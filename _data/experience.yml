@@ -1,55 +1,68 @@
 - layout: left
-  company: Natural Machines
-  link: www.naturalmachines.com
-  job_title: Full stack engineer
-  dates: November 2012 - Present
+  company: Kiwi.com
+  link: kiwi.com
+  job_title: Backend Engineer
+  dates: Dec 2022 - Present
   description: | # this will include new lines to allow paragraphs
-    This is my project history (latest on top). Since it's been a long time already feel free to ask for more details in any area.
+    Designed and implemented backend architecture for payments/transactions processing (categorization, pairing flows, chargeback-related handling), using event-driven/asynchronous patterns and clear domain models. (Python, FastAPI, event-driven processing)
 
-    Implement CD / CI pipeline for all internal projects using Jenkins and AWS, which includes: 
-      - Natural Machines Website
-      - Foodini's (3d food printer) Android app: backend + NDK libraries and frontend
-      - Firmware for an ARM Cortex PCB
-      - Tax reporting application
+    Owned API design and integration: built/extended REST endpoints and contracts to support internal reconciliation tooling and reliable backend workflows. (Python, FastAPI, REST APIs)
 
-    Development of a tax reporting application in Node.js
-    - Import financial information from Zoho Books.
-    - Report this information to the Spanish Tax Service (SII)
+    Drove infrastructure and delivery improvements: reduced build times among all the team services and contributed to production routing/mirroring. (GCP, CI/CD, Kubernetes)
 
-    Development, deployment and maintenance of the Natural Machine website backend. Serverless implementation in AWS lambda + API Gateway in Node.js:
-    - User information stored in Dynamo DB, authentication using Cognito.
-    - Payment gateways including Stripe and ING bank.
-    - Integrations with the Zoho ecosystem (Books, CRM and Inventory)
-    - Frontend hosted in AWS (Cloudfront + ELB + EC2)
-
-    Next iteration of the 3d food printer (Foodini) includes an Android tablet, so I had to develop the App the users had to use to interact with Foodini:
-    - Android backend as a rest API (using NDK for resource intensive algorithms)
-    - Web frontend (Angular)
-
-    Construction of a 3D food printer PoC, which included:
-    - Adaptation of 2 open source 3D printers into one, Reprap's electronics into Fab@Home chassis
-    - Development of a wireless communication system so the printer can be accessed from WiFi
+    Delivered an internal FinTech reconciliation UI project end-to-end: contributed to solution design, implemented Next.js frontend screens and validation, and integrated them with FastAPI backend APIs/event processing for pairing and missing-cost insertion workflows. (Next.js, TypeScript, Python, FastAPI, REST APIs, event-driven processing)
 
 - layout: left
-  company: Independent game developer 
+  company: BCN3D Technologies
+  link: www.bcn3d.com
+  job_title: Senior Backend Engineer
+  dates: Feb 2021 - Dec 2022
+  description: | # this will include new lines to allow paragraphs
+    Improved automated builds for internal projects using Jenkins, CircleCI and SonarCloud.
+
+    Worked on 3D printing software and end-to-end printing pipelines using Node.js, Three.js and Kubernetes.
+
+    Led AWS-focused initiatives including migration from DynamoDB to PostgreSQL (RDS) and telemetry ingestion using AWS Timestream.
+
+- layout: left
+  company: Natural Machines
+  link: www.naturalmachines.com
+  job_title: Full Stack Developer
+  dates: Nov 2012 - Feb 2021
+  description: | # this will include new lines to allow paragraphs
+    Setup and maintenance of a web server using Apache + HAProxy in CentOS.  
+    Migration and maintenance of the previous webserver to AWS using ELB + EC2 + Dynamo DB.  
+    Setup of the CD/CI pipelines for components used in Foodini (a 3D food printer) using AWS (ranging from Android, NDK and Node.js)
+
+    Development of an Android web server, implementation of a REST API that communicates with Foodini.
+    Translation and optimization of algorithms from Python to C++ NDK library.
+
+    Implementation in PHP of custom ecommerce site for early access orders, including registration of users in a MySQL DB, integration with Zoho Books and Avalara and implementation of Stripe and Redsys as payment gateways.
+
+    Implementation using a Raspberry Pi and specific hardware to add new capabilities to Foodini.
+
+    Creation and modification of 3D models so they're optimized for 3D printing. Using both 3D modeling software (Sketchup and Blender) and scripting CAD (OpenSCAD).
+
+- layout: left
+  company: Independent game developer
   link: https://youtu.be/0tUClk6atUY
   job_title: Game designer / programmer
-  dates: October 2011 - November 2012
+  dates: Oct 2011 - Nov 2012
   description: | # this will include new lines to allow paragraphs
     Creation of a match-3 videogame for iOS called "The Blops", including:
-    - Game design, quick prototyping made in Python + PyGame
-    - Implementation in Objective-C using Cocos-2D library.
+    - Game design and prototyping made in Python + PyGame
+    - Implementation in Objective-C using Cocos-2D library
 
 - layout: left
   company: CLABSA
   link: www.clabsa.es
   job_title: Junior Software Engineer
-  dates: September 2008 - September 2011
+  dates: Sep 2008 - Sep 2011
   description: | # this will include new lines to allow paragraphs
     Development of ArcGIS plugins using Python.
+
     Creation of a Visual Studio (C#) project consisting of:
       - Getting geospatial data from a GIS database (Smallworld)
-      - Data analysis
-      - Export of the analysed data to an external server (Webdav).
-      - Development in C# of an application for offsite scupper data collection, resilient to poor connection conditions. Synced whenever connection was available with a SQL Server database.
+      - Development in C# of an application for offsite scupper data collection, resilient to poor connection conditions. Synced whenever connection was available with a SQL Server database.  
+
     Maintenance of legacy applications (Visual Studio 6)

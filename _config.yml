@@ -4,29 +4,25 @@ favicon: images/favicon.ico
 
 # Personal info
 name: Enric Masdeu
-title: Full Stack Engineer
+title: Backend Engineer
 email: enric.masdeu@gmail.com
 #website: www.github.com/sproogen/resume-theme
 
 # Social links
-# twitter_username: facespics
 github_username: HenryHey
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: chillwildlife
 linkedin_username: emasdeu
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi! Thanks for taking a look at my resume!  
-  I'm enjoying my time at Natural Machines, playing with everything that has a computer attached to it.  
-  Currently wearing the full stack hat, system administration ( <mark>aws</mark> ), backend ( <mark>node.js</mark> ) and some frontend ( <mark>php</mark>, some <mark>react</mark> ). I've also coded low level android libraries ( <mark>ndk</mark> ) and even did 3D modeling for 3D food printing ( <mark>blender</mark> and <mark>openscad</mark> )
+  Software Engineer at Kiwi.com, focused on building reliable, scalable backend systems for payments and transaction processing. 
+
+  I design event-driven/asynchronous workflows with clear domain models, and I own API design and integrations that power internal reconciliation tooling. I also enjoy improving the delivery pipeline, contributing to faster builds across services. 
+
+  Recently, I delivered an internal FinTech reconciliation UI end-to-end, combining Next.js/TypeScript frontend work with FastAPI/Python backend APIs and event processing to support key operational workflows.
+
+  Before Kiwi.com, I spent years building software for 3D printing companies, bridging backend, DevOps, and product-facing engineering. At BCN3D Technologies I worked on CI quality and automation, extended a 3D slicer in Python, built an end-to-end pipeline for VLM printing (Node.js/Three.js/Kubernetes), and led data platform improvements including DynamoDB→PostgreSQL migration and telemetry storage with AWS Timestream. Earlier at Natural Machines, I helped ship the Foodini ecosystem across DevOps, backend, and frontend—ranging from AWS infrastructure and CI/CD, to REST APIs communicating with hardware, to ecommerce/payment integrations.
 
 # Experience Section
 # experience_title: Experience
@@ -36,10 +32,7 @@ about_content: | # this will include new lines to allow paragraphs
 
 # More Section
 # more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in software engineering some of my other interests and hobbies are:
-   - Video-games: playing, reading about them and sometimes making them.
-   - Cooking: Well, actually eating, but you need the previous step.
+# more_content: | # this will include new lines to allow paragraphs
 
 # Footer
 # footer_show_references: true
@@ -52,4 +45,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag

@@ -1,0 +1,17 @@
+- layout: left
+  name: messageboxd
+  link: messageboxd.com
+  description: | # this will include new lines to allow paragraphs
+    A web tool that lets you write custom messages and see them rendered in vintage RPG game style. 
+
+    Choose from classic games like Final Fantasy VI and Golden Sun, then type your message to see it displayed in authentic retro message box graphics.
+
+    Tilemaps were extracted from original game assets and exported to images using Python scripts. [Here](https://messageboxd.com/games/ff6/howto/)'s a more detailed explanation.
+
+- layout: left
+  name: Japanese Magazine Ads
+  link: bsky.app/profile/japmagads.bsky.social
+  description: | # this will include new lines to allow paragraphs
+    A bot that publishes scans of Japanese magazine ads to Bluesky four times a day.
+
+    Built on AWS using S3 for storage, EventBridge for scheduling and Lambda to pick random images and publish posts.
