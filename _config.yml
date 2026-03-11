@@ -22,7 +22,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   Recently, I delivered an internal FinTech reconciliation UI end-to-end, combining Next.js/TypeScript frontend work with FastAPI/Python backend APIs and event processing to support key operational workflows.
 
-  Before Kiwi.com, I spent years building software for 3D printing companies, bridging backend, DevOps, and product-facing engineering. At BCN3D Technologies I worked on CI quality and automation, extended a 3D slicer in Python, built an end-to-end pipeline for VLM printing (Node.js/Three.js/Kubernetes), and led data platform improvements including DynamoDB→PostgreSQL migration and telemetry storage with AWS Timestream. Earlier at Natural Machines, I helped ship the Foodini ecosystem across DevOps, backend, and frontend—ranging from AWS infrastructure and CI/CD, to REST APIs communicating with hardware, to ecommerce/payment integrations.
+  Before Kiwi.com, I spent years building software for 3D printing startups, bridging backend, DevOps, and product-facing engineering.
 
 # Experience Section
 # experience_title: Experience
